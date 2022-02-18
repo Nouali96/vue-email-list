@@ -9,7 +9,7 @@
 <body>
     
     <div id="app">
-        <ul >
+        <ul v-if="arrayListaEmail.length == 10">
             <li v-for="email in arrayListaEmail">{{email}}</li>
         </ul>
     </div>
@@ -21,3 +21,4 @@
 
 </body>
 </html>
+
